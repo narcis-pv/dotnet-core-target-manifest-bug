@@ -25,13 +25,11 @@ In any case I have included the `artifact.xml` in the solution project.
 
 `dotnet store` command will output the store artifacts by default here: `C:\Users\admin\.dotnet\store\x64\netcoreapp2.2` which need to be copied into `C:\Program Files\dotnet\store\x64\netcoreapp2.0`
 
-1. ###### 
+###### Steps
 
+1. Deploy the target artifacts in `C:\Program Files\dotnet\store\x64\netcoreapp2.0`
 2. Run the `dotnet publish` command as following:
-
-```powershell
-dotnet publish -c Release /p:PublishProfile=Properties\PublishProfiles\FolderProfile.pubxml
-```
+   1. `dotnet publish -c Release /p:PublishProfile=Properties\PublishProfiles\FolderProfile.pubxml`
 
 3. execute \bin\Release\netcoreapp2.2\win7-x64\publish\TargetManifestBug.exe
 
