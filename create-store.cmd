@@ -1,0 +1,1 @@
+dotnet store --manifest TargetManifestBug.csproj --framework netcoreapp2.2 --runtime win7-x64 --skip-optimization

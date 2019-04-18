@@ -1,0 +1,6 @@
+<StoreArtifacts>
+  <Package Id="Swashbuckle.AspNetCore" Version="4.0.1" />
+  <Package Id="Swashbuckle.AspNetCore.Swagger" Version="4.0.1" />
+  <Package Id="Swashbuckle.AspNetCore.SwaggerGen" Version="4.0.1" />
+  <Package Id="Swashbuckle.AspNetCore.SwaggerUI" Version="4.0.1" />
+</StoreArtifacts>

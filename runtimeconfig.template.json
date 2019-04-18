@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Program Files\\dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Program Files\\dotnet\\store\\x64\\netcoreapp2.0"
+    ]
+  }
+}
